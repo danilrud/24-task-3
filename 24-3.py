@@ -1,10 +1,6 @@
-N = int(input())
-R = 0
-T = 1
-while N > 0:
-    d = N % 10
-    if d != 1:
-        R = R + d*T
-        T = T * 10
-    N = N // 10
-print(R)
+n = int(input())
+k = 1
+while n >= 0:
+    n = n –k
+    k = k+ 1
+print(k-1)
